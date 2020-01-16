@@ -12,5 +12,5 @@ npm install sass
 ### Step 3
 Watch the `main.scss` file. This is your go-to file to import all independent styles.
 ```console
-npm prepsass
+npm run prepsass
 ```
