@@ -1,0 +1,19 @@
+// GENERAL
+body {-webkit-font-smoothing: antialiased;}
+html {scroll-behavior: smooth;}
+* {font-family: $work-sans;}
+.preload * {
+   transition: none !important;
+   -webkit-transition: none !important;
+   -moz-transition: none !important;
+   -ms-transition: none !important;
+   -o-transition: none !important;
+}
+
+// HTML ELEMENTS
+h1 {@include font-h1;}
+p {@include font-p(400);}
+h2 {@include font-h2;}
+a:hover {text-decoration: none;}
+input:focus {outline: none;}
+img {pointer-events: none;}

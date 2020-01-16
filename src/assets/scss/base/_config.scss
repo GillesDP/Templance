@@ -1,0 +1,17 @@
+// MAIN SETTINGS
+html {font-size: 16px;}
+* {transition: .2s;}
+.container {overflow: hidden;}
+
+::selection {
+   background: color(black);
+   color: white;
+}
+::-moz-selection {
+   background: color(black);
+   color: white;
+}
+
+// FONTS
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap);
+$work-sans: 'Work Sans', sans-serif;

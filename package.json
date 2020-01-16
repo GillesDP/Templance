@@ -1,0 +1,19 @@
+{
+  "name": "templance",
+  "version": "1.0.0",
+  "description": "A simple front-end template repository. Copy this to start working!",
+  "main": "index.js",
+  "scripts": {
+    "prepsass": "sass --watch src/assets/scss/main.scss src/assets/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GillesDP/Templance.git"
+  },
+  "author": "gillesdp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GillesDP/Templance/issues"
+  },
+  "homepage": "https://github.com/GillesDP/Templance#readme"
+}
